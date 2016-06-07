@@ -1,0 +1,267 @@
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+* {
+  font-family: 'deathe_maach_ncvregular'; }
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'deathe_maach_ncvregular'; }
+
+header {
+  position: relative;
+  width: 100%;
+  height: 95px;
+  background-color: #212121;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+  font-family: 'deathe_maach_ncvregular'; }
+  header .header-main {
+    padding: 20px 0;
+    z-index: 999; }
+  header .head {
+    max-width: 70%;
+    width: 100%;
+    position: relative;
+    margin: 0 auto; }
+  header #logo {
+    float: left;
+    top: 6px;
+    position: absolute;
+    width: 180px;
+    height: 140px;
+    background: url(../img/logomini2.png) no-repeat; }
+
+.usuario #logout {
+  background: #666;
+  padding: 10px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  font-family: 'deathe_maach_ncvregular'; }
+.usuario a {
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
+  font-family: 'deathe_maach_ncvregular'; }
+
+.usuario {
+  float: right;
+  font-family: 'deathe_maach_ncvregular'; }
+  .usuario li {
+    display: inline-block;
+    padding: 5px;
+    margin-right: 5px;
+    margin: 0 auto;
+    font-family: 'deathe_maach_ncvregular'; }
+  .usuario #saludo {
+    padding-top: 35px;
+    color: #fff;
+    font-size: 1.2em;
+    font-family: 'deathe_maach_ncvregular'; }
+  .usuario #logout {
+    font-family: 'deathe_maach_ncvregular'; }
+
+.clear {
+  clear: both; }
+
+.contenedor {
+  /*max-width: 90%;*/
+  position: relative;
+  width: 100%;
+  padding: 50px;
+  /*background-color: red;*/
+  background: url(../img/fondoindex4resize.jpg) no-repeat;
+  padding-bottom: 0; }
+
+.contenido {
+  position: relative;
+  max-width: 100%;
+  padding: 20px 0;
+  /*background: green;*/
+  margin: 0 auto;
+  font-family: 'deathe_maach_ncvregular'; }
+
+.contenedor-menu {
+  position: relative;
+  background: rgba(130, 130, 130, 0.3);
+  width: 30%;
+  float: left;
+  padding: 0 19px 0 10px;
+  border-right: 1px solid #e6e6e6;
+  border-radius: 10px;
+  border: 1px solid;
+  border-top-color: rgba(255, 255, 255, 0.4);
+  border-left-color: rgba(255, 255, 255, 0.4);
+  border-bottom-color: rgba(60, 60, 60, 0.4);
+  border-right-color: rgba(60, 60, 60, 0.4);
+  -webkit-transition: opacity 1s; }
+
+.contenido .contenedor-menu h2 {
+  text-align: center;
+  margin-bottom: 3px;
+  color: #ff7f1a;
+  font-family: 'deathe_maach_ncvregular' !important; }
+.contenido .contenedor-menu h3 {
+  margin-left: 53px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  color: #ff7f1a;
+  font-family: 'deathe_maach_ncvregular' !important; }
+
+.contenedor-menu .menu {
+  list-style: none;
+  line-height: 42px;
+  margin-left: 38px;
+  font-family: 'deathe_maach_ncvregular'; }
+  .contenedor-menu .menu a {
+    text-decoration: none;
+    color: #212121;
+    text-transform: uppercase;
+    display: block;
+    --webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    width: 100%;
+    color: #000;
+    font-family: 'deathe_maach_ncvregular'; }
+  .contenedor-menu .menu a:hover {
+    margin-left: 1em; }
+  .contenedor-menu .menu i {
+    padding-right: 10px;
+    color: #000; }
+  .contenedor-menu .menu li {
+    box-shadow: 3px 0 rgba(97, 97, 97, 0.2) inset;
+    padding-left: 1.5em;
+    margin-bottom: 10px;
+    --webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    font-family: 'deathe_maach_ncvregular'; }
+  .contenedor-menu .menu li:hover {
+    box-shadow: 18em 0 rgba(97, 97, 97, 0.2) inset; }
+
+.contenido-forms {
+  width: 68%;
+  background: rgba(130, 130, 130, 0.3);
+  float: left;
+  margin-left: 13px;
+  padding-left: 51px;
+  border-radius: 10px;
+  border: 1px solid;
+  border-top-color: rgba(255, 255, 255, 0.4);
+  border-left-color: rgba(255, 255, 255, 0.4);
+  border-bottom-color: rgba(60, 60, 60, 0.4);
+  border-right-color: rgba(60, 60, 60, 0.4);
+  -webkit-transition: opacity 1s;
+  font-family: 'deathe_maach_ncvregular'; }
+
+.vista-resultado {
+  padding: 5px;
+  margin: 7px 6px;
+  position: relative;
+  margin-left: -45px; }
+
+label {
+  font-size: 1.5em;
+  margin-right: 15px;
+  font-family: 'deathe_maach_ncvregular'; }
+
+.labeledit {
+  margin-bottom: 12px; }
+
+.seditname {
+  margin-left: 31%; }
+
+.seditrodada {
+  margin-left: 13%; }
+
+.snhog {
+  margin-left: 26%; }
+
+.alinear {
+  margin-left: -100px; }
+
+.titulo {
+  margin-bottom: 8px; }
+  .titulo span {
+    margin-left: 30%;
+    font-size: 1.8em;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'deathe_maach_ncvregular'; }
+
+#registro-inner {
+  padding: 20px; }
+
+.subtitulo {
+  width: 100%;
+  margin-left: 50%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.6em;
+  color: #0d0908;
+  font-family: 'deathe_maach_ncvregular'; }
+
+.centrar {
+  width: 100%;
+  padding-left: 53px;
+  margin-bottom: 10px; }
+
+.centrar2 {
+  padding-left: 109px; }
+
+.box {
+  display: inline-block;
+  margin: 6px 15px 5px 0; }
+
+.block {
+  display: block;
+  padding-top: 17px;
+  margin-left: 38%; }
+
+input {
+  background: rgba(130, 130, 130, 0.3);
+  display: block;
+  font-size: 1em;
+  border-radius: 12px;
+  padding: 5px;
+  margin: 2px;
+  color: #fff;
+  font-family: 'deathe_maach_ncvregular'; }
+  input::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: bold; }
+  input:focus {
+    outline: 0; }
+
+.input-inner {
+  border: 0;
+  border-bottom: 1px solid #999; }
+
+.btncentrar {
+  font-size: 1.5em;
+  padding-top: 20px;
+  padding-left: 317px; }
+
+.btn {
+  padding: 11px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  transition: all 1s ease;
+  font-family: 'deathe_maach_ncvregular'; }
+  .btn:hover {
+    background: rgba(128, 128, 128, 0.8); }
+
+.izquierda {
+  padding: 15px; }
+
+/*# sourceMappingURL=panel.css.map */
