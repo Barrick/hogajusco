@@ -11,7 +11,7 @@
       <section id="registro-inner">
         <section class="izquierda">
           <h2 class="subtitulo">Registro de Rodadas 2016</h2>
-          <form action="#" method="post" class="completo">
+          <form action="./php/registrorodada.php" method="post" class="completo">
               <div class="box block">
                   <input class="input-inner" type="number" name="numrodada" placeholder="No De Rodada" required>
               </div>
@@ -22,7 +22,7 @@
                   <input class="input-inner" type="date" name="fecharodada" placeholder="Fecha" required>
               </div>
               <div class="box block">
-                  <input class="input-inner" type="number" name="kilometros" placeholder="Kilometros" required>
+                  <input class="input-inner" type="number" name="kilometros" placeholder="Kilometros">
               </div>
               <div class="box block">
                   <input class="btn" type="submit" name="registrarrodada" value="Registrar">
