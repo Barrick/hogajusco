@@ -40,7 +40,7 @@
                                 echo '<script>location.href="../panel.php";</script>';
 
                             }else {
-                                echo '<script type="text/javascript">alert("Lo sentimos no se pudo registrar el usuario");</script>';
+                                echo '<script type="text/javascript">alert("El usuario ya existe.");</script>';
                                     echo '<script>location.href="../panel.php";</script>';
                                     //printf("error %s ", $conexion->error);
                             }
